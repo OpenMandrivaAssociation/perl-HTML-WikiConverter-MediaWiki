@@ -10,6 +10,7 @@ Summary:	Convert HTML to MediaWiki markup
 Url:		https://search.cpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(HTML::WikiConverter)
 BuildRequires:	perl(Test::More)
