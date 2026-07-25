@@ -2,13 +2,13 @@
 %define upstream_version    0.59
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Convert HTML to MediaWiki markup
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source:		http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/HTML-WikiConverter-MediaWiki
+Source:		https://cpan.metacpan.org/authors/id/D/DI/DIBERRI/HTML-WikiConverter-MediaWiki-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
